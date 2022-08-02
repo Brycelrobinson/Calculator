@@ -1,0 +1,104 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(151, 151, 151);
+}
+#calcBody {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(39, 39, 39);
+    height: 800px;
+    width: 500px;
+    border-radius: 30px;
+}
+
+#screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 450px;
+    height: 250px;
+    margin: 20px;
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+#clearCtn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 110px;
+    margin-bottom: 10px;
+}
+
+#clear{
+    background-color: rgb(167, 14, 14);
+    color: white;
+    font-size: 40px;
+    height: 50px;
+    width: 75px;
+    caret-color: rgba(0,0,0,0);
+}
+
+#button-ctn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    gap: 30px;
+
+}
+
+#number-ctn{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    direction: rtl;
+}
+
+#zero{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+#operator-ctn{
+    display: flex;
+    flex-direction: column;
+}
+
+#equals{
+    background-color:  rgb(99, 98, 98);
+    color: white;
+    font-size: 80px;
+    width: 215px;
+    margin-right: 35px;
+    margin-left: auto;
+}
+
+button{
+    background-color: white;
+    color: black;
+    font-size: 80px;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    caret-color: rgba(0,0,0,0);
+    
+}
+
+.numBtn{
+    background-color:  white;
+    color: black;
+}
+
+.oprBtn{
+    background-color:  rgb(99, 98, 98);
+    color: white;
+}
